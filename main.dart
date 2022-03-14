@@ -4,7 +4,8 @@ import '1_lcm.dart';
 import '2_bin_to_dec.dart';
 import '2_dec_to_bin.dart';
 import '3_find_numbers_in_str.dart';
-import 'get_world_count.dart';
+import '4_get_world_count.dart';
+import '5_filter_numbers.dart';
 
 void main () {
   /// 1
@@ -21,4 +22,7 @@ void main () {
 
   /// 4
   getWorldCountOnList(['aaa', 'aaa', 'bbb', 'ccc', 'cc', 'aaa', 'cc', 'cc']);
+
+  /// 5
+  getNumbersList('one, ywo, two, two, yxz, zero, nine, light');
 }
