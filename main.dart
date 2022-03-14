@@ -1,6 +1,7 @@
 import '1_factorization.dart';
 import '1_gcd.dart';
 import '1_lcm.dart';
+import '2_bin_to_dec.dart';
 import '2_dec_to_bin.dart';
 
 void main () {
@@ -11,4 +12,5 @@ void main () {
 
   /// 2
   decToBinConverter(128);
+  binToDecConverter('11111');
 }
