@@ -7,6 +7,7 @@ import '3_find_numbers_in_str.dart';
 import '4_get_world_count.dart';
 import '5_filter_numbers.dart';
 import '6_point.dart';
+import '7_sqrt.dart';
 
 void main () {
   /// 1
@@ -31,4 +32,8 @@ void main () {
   Point point = Point(0, 0, 0);
   Point pointAnother = Point(1, 0, 0);
   point.distanceTo(pointAnother);
+
+  /// 7
+  num x = 1;
+  x.sqrt(5);
 }
