@@ -8,6 +8,7 @@ import '4_get_world_count.dart';
 import '5_filter_numbers.dart';
 import '6_point.dart';
 import '7_sqrt.dart';
+import '8_user.dart';
 
 void main () {
   /// 1
@@ -36,4 +37,16 @@ void main () {
   /// 7
   num x = 1;
   x.sqrt(5);
+
+  /// 8
+  UserManager users = UserManager();
+  for(int i = 0; i < 20; i++){
+    users.addUser('email${i}@mail${i}.com');
+    if (i % 3 == 0) {
+      users.usersList[i].setAdmin();
+    }
+  }
+  users.deleteUser('email11@mail11.com');
+  users.deleteUser('email10@mail10.com');
+  users.printAllEmails();
 }
