@@ -6,6 +6,7 @@ import '2_dec_to_bin.dart';
 import '3_find_numbers_in_str.dart';
 import '4_get_world_count.dart';
 import '5_filter_numbers.dart';
+import '6_point.dart';
 
 void main () {
   /// 1
@@ -25,4 +26,9 @@ void main () {
 
   /// 5
   getNumbersList('one, ywo, two, two, yxz, zero, nine, light');
+
+  /// 6
+  Point point = Point(0, 0, 0);
+  Point pointAnother = Point(1, 0, 0);
+  point.distanceTo(pointAnother);
 }
